@@ -16,7 +16,7 @@ FROM students;"
 end
 
 def total_tardies_for_all_students
-  "SELECT sum(tardies)
+  "SELECT SUM(tardies)
 FROM students;"
 
 end
