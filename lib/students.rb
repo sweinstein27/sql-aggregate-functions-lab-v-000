@@ -22,7 +22,7 @@ FROM students;"
 end
 
 def average_gpa_for_9th_grade
-  "SELECT MAX(gpa)
+  "SELECT AVG(gpa)
 FROM students
   WHERE grade = 9 ;"
 end
